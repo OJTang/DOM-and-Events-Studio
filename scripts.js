@@ -23,6 +23,8 @@ window.addEventListener('load', function(event){
             flightStatus.innerHTML = 'Shuttle in flight.';
             shuttleBackground.style.backgroundColor = 'blue';
             shuttleHeight.innerHTML = numberHeight += 10000;
+            newHeight = pixelHeight += 10;
+            rocket.style.bottom = newHeight + 'px';
         }
     });
 
